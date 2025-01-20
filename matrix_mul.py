@@ -1,18 +1,17 @@
-import pandas as pd
-import numpy as np
-
-# Load data
-data = pd.read_csv('path/to/data')
 
 # Example arrays
-Prices = [[300, 500],
-          [1000, 120.85]]
+a = [
+    [100, 200],
+    [300, 400],
+    [500, 600]
+]
 
-Array2 = [200, 100]
+b = [5,10,15]
 
 # Calculate the result
-Ans = []
-# (300*200 + 500*100) as an example calculation
+# Create a matrix of zeros
+result = [[0 for _ in range(len(b))] for _ in range(len(a))]
+print(result)
 
 for i in range(len(Prices)):
     row_sum = 0
