@@ -13,11 +13,7 @@ b = [5,10,15]
 result = [[0 for _ in range(len(b))] for _ in range(len(a))]
 print(result)
 
-for i in range(len(Prices)):
-    row_sum = 0
-    for j in range(len(Prices[0])):
-        # COMPLETE THE MISSING LOGIC HERE
-        pass
-
-
-print(Ans)
+for i in range(len(a)):
+  for j in range(len(a[i])):
+    result[i][j] = a[i][j] * b[j]
+print(result)
