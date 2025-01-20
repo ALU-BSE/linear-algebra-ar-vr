@@ -11,7 +11,6 @@ b = [5,10,15]
 # Calculate the result
 # Create a matrix of zeros
 result = [[0 for _ in range(len(b))] for _ in range(len(a))]
-print(result)
 
 for i in range(len(a)):
   for j in range(len(a[i])):
