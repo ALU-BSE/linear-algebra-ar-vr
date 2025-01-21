@@ -6,7 +6,7 @@ a = [
     [500, 600]
 ]
 
-b = [5,10,15]
+b = [5,10]
 
 # Calculate the result
 # Create a matrix of zeros
